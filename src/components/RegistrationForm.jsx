@@ -5,6 +5,7 @@ import swal from "sweetalert";
 import { formValidationSchema } from "./formValidationSchema";
 import "./RegistrationsForm.css";
 import axios from "axios";
+import Content from "./Content";
 
 class RegistrationForm extends React.Component {
   state = {
@@ -30,7 +31,6 @@ class RegistrationForm extends React.Component {
     });
     axios
       .post(`https://jsonplaceholder.typicode.com/posts`, { payload })
-      //https://staging.sunwestbank.com/test_form/ after post, we can change the link for the request here but we need the back-end  connected to it
       .then(this.onCreateSuccess)
       .catch(this.onCreateError);
   };
@@ -63,6 +63,9 @@ class RegistrationForm extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <div>
+          <Content></Content>
+        </div>
         <div className="container-register d-flex justify-content-center">
           <div className="d-flex justify-content-center reg-card ">
             <div className="card register_card">

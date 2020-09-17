@@ -6,8 +6,11 @@ class Content extends React.Component {
       <main role="main">
         <div className="jumbotron">
           <div className="container">
-            <h1 className="display-3">Hello, this is Sunwest Bank !</h1>
-            <p>The bank number one ! </p>
+            <h1 className="display">
+              If you need a loan, please visit our lending link and fill the
+              form.
+            </h1>
+            <p>We will call you soon!</p>
             <p></p>
           </div>
         </div>

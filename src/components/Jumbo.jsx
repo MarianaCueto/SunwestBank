@@ -1,6 +1,7 @@
 import React from "react";
-import RegistrationForm from "./RegistrationForm";
+import ContentD from "./ContentD";
 import Content from "./Content";
+import ContentB from "./ContentB";
 
 class Jumbo extends React.Component {
   render() {
@@ -45,7 +46,8 @@ class Jumbo extends React.Component {
             </p>
           </div>
         </div>
-        <RegistrationForm></RegistrationForm>
+        <ContentB></ContentB>
+        <ContentD></ContentD>
       </div>
     );
   }

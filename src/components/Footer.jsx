@@ -34,19 +34,8 @@ const Footer = () => {
                     className="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
                     style={{ width: 60 }}
                   />
-                  <p>
-                    <a className="link footerLink text-white" href="/faq">
-                      FAQ
-                    </a>
-                  </p>{" "}
-                  <p>
-                    <a
-                      className="link footerLink text-white"
-                      href="/contact-us"
-                    >
-                      Contact Us
-                    </a>
-                  </p>
+                  <p className="text-white">FAQ</p>{" "}
+                  <p className="text-white">Contact Us</p>
                 </div>
                 <div className="col-md-3 icons">
                   <div className="btn-wrapper profile text-left"></div>
